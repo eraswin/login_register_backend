@@ -1,5 +1,4 @@
 # login_register_backend
-
 This is the login and registration repository. The code is made in NodeJS on 25.10.2023 and the database is in MongoDB.
 Let's go over all the files and folders in alphabetical order.
 The config folder has db.js and default.json.
