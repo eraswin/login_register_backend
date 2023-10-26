@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://eraswin:Priyaidea@cluster0.0ap5yox.mongodb.net/?retryWrites=true&w=majority",
-    "jwtSecret": "Who_can_keep_name_a_secret"
+    "mongoURI": "insert_mongoDB_URI",
+    "jwtSecret": "put_your_jwt_secret_code"
 }

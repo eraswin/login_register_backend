@@ -15,11 +15,11 @@ const config = require('config');
 
 router.post('/', [
     check('name')
-    .matches(/^[a-zA-Z0-9._ ]+$/)
+    .matches(/^[a-zA-Z0-9._- ]+$/)
     .withMessage('User name can only contain alphabets, numbers, dot (.) and underscore (_).'),
     check('email', 'Please include a valid email').isEmail(),
     check('user_name')
-    .matches(/^[a-zA-Z0-9._]+$/)
+    .matches(/^[a-zA-Z0-9._-]+$/)
     .withMessage('User name can only contain alphabets, numbers, dot (.) and underscore (_).'),
     check('password', 'Please enter a password with 8 or more characters, including an alphabet, number, and special character.')
     .isLength({ min: 8 })
