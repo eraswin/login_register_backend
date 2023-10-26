@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://eraswin:Priyaidea@cluster0.0ap5yox.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret": "Who_can_keep_name_a_secret"
+}
